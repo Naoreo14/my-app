@@ -1,4 +1,4 @@
-# Park-easy
+# ParkEasy
 Help drivers quickly find available parking spaces nearby, saving time, reducing stress, and minimizing traffic congestion.
 ## Target Users
 Drivers in urban areas who need quick and reliable parking solutions, including daily commuters, delivery drivers, ride-share drivers, and tourists.
