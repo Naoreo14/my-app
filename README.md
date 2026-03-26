@@ -8,7 +8,7 @@ Drivers in urban areas who need quick and reliable parking solutions, including 
 - Feature 2: [Nearby parking spots map: Displays available parking spots around the user in real-time.]
 - Feature 3: [Spot details: Shows price, distance, type (disable,delivery…), free/paid status, and hours of operation.]
 ### Should Have
-- Feature 4: [Navigation: Provides turn-by-turn directions to the selected parking spot.]
+- Feature 4: [Navigation: Provides turn-by-turn directions to the selected adress.]
 - Feature 5: [Real-time updates: Users can see live availability using community reports or sensor data.]
 ### Could Have
 - Feature 6: [Payment integration: Pay for parking directly through the app.]
