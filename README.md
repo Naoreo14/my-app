@@ -9,13 +9,13 @@ Drivers in urban areas who need quick and reliable parking solutions, including 
 - Feature 3: [Spot details: Shows price, distance, type (disable,delivery…), free/paid status, and hours of operation.]
 ### Should Have
 - Feature 4: [Navigation: Provides turn-by-turn directions to the selected adress.]
-- Feature 5: [Real-time updates: Users can see live availability using community reports or sensor data.]
+- Feature 5: [Real-time updates: Users can see live availability using community reports.]
 ### Could Have
 - Feature 6: [Payment integration: Pay for parking directly through the app.]
 - Feature 7: [Predictive suggestions: Suggests spots where the user is most likely to find free parking based on past patterns.]
 ## Data Model
-- **ParkingSpot**: id, name, location (lat/lng), price, type (street/garage), hours, availability, sensor_id (optional)
-- **User**: id, name, email, payment_info, favorite_spots (list of ParkingSpot IDs)
+- **ParkingSpot**: id, name, location (latitude, longitude), price, type (disable,delivery…), hours, availability
+- **User**: id, name, email, payment_info, driver_license
 - **Report**: user_id, parking_spot_id, availability_status, timestamp
 ## Tech Stack
 - Next.js 14 (App Router)
@@ -23,8 +23,7 @@ Drivers in urban areas who need quick and reliable parking solutions, including 
 - Tailwind CSS
 - Deployed on Vercel
 - Payment integration (Stripe/PayPal)
-- Google Maps API / Mapbox for maps
-- Deployed on Vercel 
+- Google Maps API / Mapbox for maps 
 ## Design
 https://www.figma.com/design/Jss3JSaOoot6zjMpGFNTwn/My-app---ParkEasy?node-id=0-1&t=1KerULBusmDmqvtR-1
 
